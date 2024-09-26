@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina Web</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: rgb(6, 29, 49);
+        }
+        h1{
+            color: #600e74;
+        }
+        p{
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="miTitulo">Mayely Catillo Romo</h1>
+    <p>Esta es una pagina web de ejemplo para la case del profe Jaime</p>
+    <script>
+        document
+        .getElementById("miTitulo")
+        .addEventListener("click",function () {
+            this.style.color = "white";
+        });
+    </script>
+</body>
+</html>
